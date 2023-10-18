@@ -128,12 +128,12 @@ const AddProduct = () => {
                 <option disabled selected >
                   Category
                 </option>
-                <option>Smartphones</option>
-                <option>Laptops</option>
-                <option>Headphones</option>
-                <option>Wearable Devices</option>
-                <option>Gaming Consoles</option>
-                <option>Smart Home Devices</option>
+                <option>Apple</option>
+                <option>Samsung</option>
+                <option>Intel</option>
+                <option>Google</option>
+                <option>Microsoft</option>
+                <option>Sony</option>
               </select>
               <div className="form-control mt-6">
                 <button className="btn btn-primary">Login</button>

@@ -1,20 +1,19 @@
-const Company = ({company}) => {
+import { Link } from "react-router-dom";
 
-    const {brand_logo, brand_name} = company
+const Company = ({ company }) => {
 
   return (
-    <div>     
-      <div className="card card-compact w-96 bg-base-100 shadow-xl">
-        <figure>
-          <img
-            src={brand_logo}
-            alt="Shoes"
-          />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">{brand_name}</h2>                 
+    <div>
+      <Link to={`/brandinfo/${company.brand_name}`}>
+        <div className="card card-compact bg-base-100 shadow-xl">
+          <figure>
+            <img className="w-full h-[250px]" src={company.brand_logo} alt="" />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">{company.brand_name}</h2>
+          </div>
         </div>
-      </div>
+      </Link>
     </div>
   );
 };

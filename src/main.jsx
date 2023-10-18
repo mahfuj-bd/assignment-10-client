@@ -11,6 +11,9 @@ import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import AddProduct from './components/AddProduct/AddProduct';
 import Company from './components/Company/Company';
+import BrnadInfo from './components/BrnadInfo/BrnadInfo';
+import Contact from './Pages/Contact/Contact';
+import LatestProduct from './Pages/LatestProduct/LatestProduct';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +39,18 @@ const router = createBrowserRouter([
       {
         path: '/company',
         element: <Company></Company>
+      },
+      {
+        path: '/brandinfo/:company.brand_name',
+        element: <BrnadInfo></BrnadInfo>
+      },
+      {
+        path: '/contact',
+        element: <Contact></Contact>
+      },
+      {
+        path: '/latesProduct',
+        element: <LatestProduct></LatestProduct>
       }
     ]
   },
