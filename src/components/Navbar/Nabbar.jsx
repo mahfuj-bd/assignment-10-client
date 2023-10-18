@@ -10,6 +10,7 @@ const Nabbar = () => {
     <li><NavLink to='/login'>Login</NavLink></li>
     <li><NavLink to='/register'>Register</NavLink></li>
     <li><NavLink to='/addproduct'>AddProduct</NavLink></li>
+    <li><NavLink to='/latesProduct'>LatestProduct</NavLink></li>
     </>
 
     return (
