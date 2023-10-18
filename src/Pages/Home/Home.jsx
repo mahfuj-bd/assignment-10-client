@@ -1,8 +1,12 @@
+import Banner from "../../components/Banner/Banner";
+import Companies from "../../components/Companies/Companies";
 
 const Home = () => {
     return (
         <div>
-            <h1>Thsi Home Page</h1>
+            <Banner></Banner>
+            <Companies></Companies>
+            
         </div>
     );
 };

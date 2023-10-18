@@ -2,31 +2,31 @@
     {
       "id": 1,
       "brand_name": "Apple",
-      "brand_logo": "apple-logo.png"
+      "brand_logo": "https://i.ibb.co/q7ggCP7/pexels-filippo-bergamaschi-986812.jpg"
     },
     {
       "id": 2,
       "brand_name": "Samsung",
-      "brand_logo": "samsung-logo.png"
+      "brand_logo": "https://i.ibb.co/HpZX4pB/pexels-obi-onyeador-13080838.jpg"
     },
     {
       "id": 3,
       "brand_name": "Sony",
-      "brand_logo": "sony-logo.png"
+      "brand_logo": "https://i.ibb.co/0XLBvgr/image-260nw-2274481391.webp"
     },
     {
       "id": 4,
       "brand_name": "Google",
-      "brand_logo": "google-logo.png"
+      "brand_logo": "https://i.ibb.co/HnRRx6V/pexels-photomix-company-106341.jpg"
     },
     {
       "id": 5,
       "brand_name": "Intel",
-      "brand_logo": "intel-logo.png"
+      "brand_logo": "https://i.ibb.co/WKWMdSW/download.jpg"
     },
     {
       "id": 6,
       "brand_name": "Microsoft",
-      "brand_logo": "microsoft-logo.png"
+      "brand_logo": "https://i.ibb.co/w6J5Mf2/images.jpg"
     }
   ]
