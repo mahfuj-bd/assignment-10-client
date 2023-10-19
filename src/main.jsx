@@ -14,6 +14,8 @@ import Company from './components/Company/Company';
 import BrnadInfo from './components/BrnadInfo/BrnadInfo';
 import Contact from './Pages/Contact/Contact';
 import LatestProduct from './Pages/LatestProduct/LatestProduct';
+import Product from './components/Product/Product';
+import Details from './components/Details/Details';
 
 const router = createBrowserRouter([
   {
@@ -41,7 +43,7 @@ const router = createBrowserRouter([
         element: <Company></Company>
       },
       {
-        path: '/brandinfo/:company.brand_name',
+        path: '/brandinfo/:brand_name',
         element: <BrnadInfo></BrnadInfo>
       },
       {
@@ -51,6 +53,10 @@ const router = createBrowserRouter([
       {
         path: '/latesProduct',
         element: <LatestProduct></LatestProduct>
+      },
+      {
+        path: '/details',
+        element: <Details></Details>
       }
     ]
   },
