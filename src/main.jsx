@@ -14,8 +14,8 @@ import Company from './components/Company/Company';
 import BrnadInfo from './components/BrnadInfo/BrnadInfo';
 import Contact from './Pages/Contact/Contact';
 import LatestProduct from './Pages/LatestProduct/LatestProduct';
-import Product from './components/Product/Product';
 import Details from './components/Details/Details';
+import AuthProvider from './components/AuthProvider/AuthProvider';
 
 const router = createBrowserRouter([
   {
@@ -55,8 +55,9 @@ const router = createBrowserRouter([
         element: <LatestProduct></LatestProduct>
       },
       {
-        path: '/details',
-        element: <Details></Details>
+        path: '/details/:id',
+        element: <Details></Details>,
+        loader: ({params}) => fetch(`http://localhost:5000/products/${params.id}`) 
       }
     ]
   },
@@ -64,6 +65,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
   </React.StrictMode>,
 )
