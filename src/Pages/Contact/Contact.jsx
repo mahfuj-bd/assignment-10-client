@@ -2,10 +2,10 @@ const Contact = () => {
   return (
     <div>
       <div>
-        <h3 className="text-3xl font-bold text-center bg-base-200 pt-20">Contact Us</h3>
+        <h3 className="text-3xl font-bold text-center bg-base-200 py-20">Contact Us</h3>
       </div>
-      <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content">
+      <div className="min-h-screen bg-base-200">
+        <div className="max-w-4xl mx-auto">
           <div className="card flex-shrink-0 w-full shadow-2xl bg-base-100">
             <form className="card-body">
               <div className="form-control">
@@ -34,15 +34,13 @@ const Contact = () => {
               </div>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Message</span>
+                  <span className="label-text text">Message</span>
                 </label>
-                <input
-                  type="text"
+                <textarea type="text"
                   name="message"
                   placeholder="message"
-                  className="input input-bordered cols-6 row-5"
-                  required
-                />
+                  className="border-2 rounded-md"
+                  required cols="30" rows="10"></textarea>
               </div>
               <div className="form-control mt-6">
                 <button className="btn btn-primary">Login</button>

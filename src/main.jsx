@@ -16,11 +16,14 @@ import Contact from './Pages/Contact/Contact';
 import LatestProduct from './Pages/LatestProduct/LatestProduct';
 import Details from './components/Details/Details';
 import AuthProvider from './components/AuthProvider/AuthProvider';
+import ErrorPage from './erroPage/ErrorPage';
+import Companies from './components/Companies/Companies';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/', 
@@ -41,6 +44,10 @@ const router = createBrowserRouter([
       {
         path: '/company',
         element: <Company></Company>
+      },
+      {
+        path: '/companies',
+        element: <Companies></Companies>
       },
       {
         path: '/brandinfo/:brand_name',

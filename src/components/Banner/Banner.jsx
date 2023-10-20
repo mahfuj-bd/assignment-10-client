@@ -1,3 +1,4 @@
+
 const Banner = () => {
   return (
     <div className="w-full">
@@ -11,7 +12,10 @@ const Banner = () => {
         <div className="hero-overlay bg-opacity-60"></div>
 
         <div className="text-neutral-content text-start">
-          <div className="w-4/3">
+          <div data-aos="fade-right"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+          className="w-2/4">
             <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
             <p className="mb-5">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda

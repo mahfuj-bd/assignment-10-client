@@ -31,14 +31,14 @@ const Register = () => {
     if (password > 8) {
       return Swal.fire({
         title: "Error!",
-        text: "Do you want to continue",
+        text: "Password must be used 8 characters",
         icon: "error",
         confirmButtonText: "Cool",
       });
     } else if (!/^(?=.*[A-Z])(?=.*[@#$%^&+=!])/.test(password)) {
       return Swal.fire({
         title: 'Error!',
-        text: 'Do you want to continue',
+        text: 'must be use capital letter and special character',
         icon: 'error',
         confirmButtonText: 'Cool'
       })
@@ -50,9 +50,9 @@ const Register = () => {
         setPhoto(photo);
         console.log(res.user);
         Swal.fire({
-          title: 'Error!',
-          text: 'Do you want to continue',
-          icon: 'error',
+          title: 'Success!',
+          text: 'Successfuly',
+          icon: 'success',
           confirmButtonText: 'Cool'
         })
       })

@@ -35,10 +35,9 @@ const Login = () => {
       .then((res) => {
         console.log(res.user);
         Swal.fire({
-          title: 'Error!',
+          title: 'Success!',
           text: 'Do you want to continue',
-          icon: 'error',
-          confirmButtonText: 'Cool'
+          icon: 'success',
         })
         navigate(locationB.state ? locationB.state : "/");
       })
