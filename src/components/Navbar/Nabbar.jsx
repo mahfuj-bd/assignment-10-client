@@ -10,14 +10,8 @@ const Nabbar = () => {
         <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/companies">Brand</NavLink>
+        <NavLink to="/addproduct">AddProduct</NavLink>
       </li>
-      <li>
-        <NavLink to="/products">Products</NavLink>
-      </li>
-      <li>
-        <NavLink to="/latesProduct">LatestProduct</NavLink>
-      </li>,
       <li>
         <NavLink to="/contact">Contact</NavLink>
       </li>

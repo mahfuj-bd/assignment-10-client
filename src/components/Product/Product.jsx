@@ -14,7 +14,8 @@ const Product = ({ product }) => {
           <p>{product.description}</p>
           <div className="card-actions flex justify-between">
             <button className="btn btn-primary"><Link to={`/details/${product._id}`}>Details</Link></button>
-            <button className="btn btn-primary">Buy Now</button>
+            <button  className="btn btn-primary">
+             <Link to={`/update/${product.update}`}>Update</Link></button>
           </div>
         </div>
       </div>

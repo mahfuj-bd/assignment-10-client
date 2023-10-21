@@ -50,9 +50,13 @@ const AddProduct = () => {
     <div>
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col">
+        <div>
+          <h3 className="text-3xl text-center font-bold my-10">Add a product</h3>
+        </div>
           <div className="card flex-shrink-0 w-full max-w-xl shadow-2xl bg-base-100">
             <form onSubmit={handleAddProduct} className="card-body">
-              <div className="form-control">
+              <div className="lg:flex flex-row">
+              <div className="form-control mr-3">
                 <label className="label">
                   <span className="label-text">Image URL</span>
                 </label>
@@ -76,7 +80,9 @@ const AddProduct = () => {
                   required
                 />
               </div>
-              <div className="form-control">
+              </div>
+              <div className="lg:flex flex-row">
+              <div className="form-control mr-3">
                 <label className="label">
                   <span className="label-text">Brand Name</span>
                 </label>
@@ -100,7 +106,9 @@ const AddProduct = () => {
                   required
                 />
               </div>
-              <div className="form-control">
+              </div>
+              <div className="lg:flex flex-row">
+              <div className="form-control mr-3">
                 <label className="label">
                   <span className="label-text">Price</span>
                 </label>
@@ -124,6 +132,7 @@ const AddProduct = () => {
                   required
                 />
               </div>
+              </div>
               <select name="category" className="select select-bordered w-full max-w-xs">
                 <option disabled selected >
                   Category
@@ -136,7 +145,7 @@ const AddProduct = () => {
                 <option>Sony</option>
               </select>
               <div className="form-control mt-6">
-                <button className="btn btn-primary">Login</button>
+                <button className="btn btn-primary">Submit</button>
               </div>
             </form>
           </div>

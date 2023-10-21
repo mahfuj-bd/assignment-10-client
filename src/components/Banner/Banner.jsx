@@ -13,12 +13,10 @@ const Banner = () => {
 
         <div className="text-neutral-content text-start">
           <div 
-          className="w-2/4">
-            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+          className="w-2/5 ml-10">
+            <h1 className="mb-5 text-5xl font-bold"> Exploring Tomorrow Tech Today</h1>
             <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              <br />excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+            Explore the future today at Digital Store and witness the synergy between human creativity and technological advancement. Join us on this journey of discovery and embrace the digital era with open arms. Your technological dreams are just a visit away.
             </p>
             <button className="btn btn-primary">Get Started</button>
           </div>
