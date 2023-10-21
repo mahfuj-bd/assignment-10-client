@@ -15,6 +15,9 @@ const Nabbar = () => {
       <li>
         <NavLink to="/contact">Contact</NavLink>
       </li>
+      <li>
+        <NavLink to="/addtocart">Add To Cart</NavLink>
+      </li>
     </>
   );
 

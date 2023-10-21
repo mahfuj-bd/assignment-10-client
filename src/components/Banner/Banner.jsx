@@ -9,7 +9,7 @@ const Banner = () => {
             "url(https://i.ibb.co/k8891fW/5078151.jpg)",
         }}
       >
-        <div className="hero-overlay bg-opacity-60"></div>
+        <div className="hero-overlay "></div>
 
         <div className="text-neutral-content text-start">
           <div 
