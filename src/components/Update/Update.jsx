@@ -26,7 +26,7 @@ const Update = () => {
         };
         console.log(creatData);
 
-        fetch('http://localhost:5000/products', {
+        fetch('https://assignment-10-server-iagyffmf2.vercel.app/products', {
             method: 'PUT',
             headers:{'content-type':'application/json'},
             body: JSON.stringify(creatData)
