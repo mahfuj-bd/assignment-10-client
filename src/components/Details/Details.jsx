@@ -19,7 +19,7 @@ const Details = () => {
       description
     }
     console.log(cartInfo);
-    fetch('https://assignment-10-server-iagyffmf2.vercel.app/cart', {
+    fetch('https://assignment-10-server-snowy.vercel.app/cart', {
       method: 'POST', 
       headers: {'content-type':'application/json'},
       body: JSON.stringify(cartInfo)

@@ -84,12 +84,12 @@ const router = createBrowserRouter([
         element: <PrivateRoute>
           <Details></Details>
         </PrivateRoute>,
-        loader: ({params}) => fetch(`https://assignment-10-server-iagyffmf2.vercel.app/products/${params.id}`) 
+        loader: ({params}) => fetch(`https://assignment-10-server-snowy.vercel.app/products/${params.id}`) 
       },
       {
         path: '/addtocart',
         element: <AddToCart></AddToCart>,
-        loader : () =>fetch('https://assignment-10-server-iagyffmf2.vercel.app/cart')
+        loader : () =>fetch('https://assignment-10-server-snowy.vercel.app/cart')
       },
     ]
   },
